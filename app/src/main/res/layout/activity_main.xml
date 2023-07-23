@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:orientation="vertical" >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="183dp"
+            android:layout_height="55dp"
+            android:editable="false"
+            android:ems="10"
+            android:freezesText="true"
+            android:inputType="textPersonName"
+            android:text=" Diagnostics"
+            android:textColor="#FBF9F9"
+            android:textSize="70px"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="235dp"
+            android:layout_height="227dp"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="170px"
+            app:srcCompat="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="150dp"
+            android:layout_height="177dp"
+            android:layout_marginLeft="360px"
+            android:layout_marginTop="240px"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName9"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="450px"
+            android:layout_marginTop="400px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:text="MDT"
+            android:textColor="#FBF9Ff"
+
+            android:textSize="100px"
+            android:textStyle="bold" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+
+        android:background="#F8F5F5">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="770px"
+            android:layout_marginTop="200px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="770px"
+            android:layout_marginTop="600px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="480px"
+            android:layout_marginTop="600px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="600px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="510px"
+            android:layout_marginTop="200px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="200px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="200px"
+
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName30"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="You can test a function individully by tapping its"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="60px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="icons"
+
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginLeft="95px"
+            android:layout_marginTop="250px"
+            app:srcCompat="@drawable/img" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+
+            android:layout_marginTop="600px"
+            app:srcCompat="@drawable/img_3" />
+
+
+        <TextView
+            android:id="@+id/editTextTextPersonName15"
+            android:layout_width="82dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="410px"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SIM card"
+
+            android:textColor="@color/black"
+            tools:context="Simcard"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:layout_marginLeft="-20px"
+            android:layout_marginTop="250px"
+            app:srcCompat="@drawable/img_5" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="600px"
+            android:layout_marginTop="250px"
+            app:srcCompat="@drawable/img_6" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="860px"
+            android:layout_marginTop="250px"
+            app:srcCompat="@drawable/img_7" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="82dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="650px"
+            app:srcCompat="@drawable/img_8" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="650px"
+            app:srcCompat="@drawable/img_9" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="520px"
+            android:layout_marginTop="650px"
+            app:srcCompat="@drawable/img_10" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="37dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="890px"
+            android:layout_marginTop="650px"
+            app:srcCompat="@drawable/img_11" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="74dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="410px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SD card"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="69dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="610px"
+            android:layout_marginTop="410px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Restart"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="90dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="850px"
+            android:layout_marginTop="410px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="software"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="71dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="90px"
+            android:layout_marginTop="810px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Network"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="64dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="810px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Battery"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="59dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="620px"
+            android:layout_marginTop="810px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Touch"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="870px"
+            android:layout_marginTop="810px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Buttons"
+
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="1000px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="1050px"
+            app:srcCompat="@drawable/img_14" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName13"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140px"
+            android:layout_marginTop="1210px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Mic"
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="1000px"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName32"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="330px"
+            android:layout_marginTop="1210px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Location"
+
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="1050px"
+            app:srcCompat="@drawable/img_15" />
+
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="500px"
+            android:layout_marginTop="1000px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="48dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="600px"
+            android:layout_marginTop="1050px"
+            app:srcCompat="@drawable/img_16" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName34"
+            android:layout_width="49dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="620px"
+            android:layout_marginTop="1210px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Wi-Fi"
+
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="790px"
+            android:layout_marginTop="1000px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="880px"
+            android:layout_marginTop="1050px"
+            app:srcCompat="@drawable/img_17" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName35"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="880px"
+            android:layout_marginTop="1210px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bluetooth"
+
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="770px"
+            android:layout_marginTop="1370px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginLeft="850px"
+            android:layout_marginTop="1430px"
+            app:srcCompat="@drawable/img_20" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName46"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="880px"
+            android:layout_marginTop="1590px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Camera"
+
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="480px"
+            android:layout_marginTop="1370px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="620px"
+            android:layout_marginTop="1430px"
+            app:srcCompat="@drawable/img_19" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName45"
+            android:layout_width="76dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="590px"
+            android:layout_marginTop="1590px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="headphones"
+
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="230px"
+            android:layout_marginTop="1370px"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName49"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="360px"
+            android:layout_marginTop="1590px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sensors"
+
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="123dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="1370px"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="120px"
+            android:layout_marginTop="1430px"
+            app:srcCompat="@drawable/img_23" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName47"
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="130px"
+            android:layout_marginTop="1590px"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="cable"
+
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="36dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="380px"
+            android:layout_marginTop="1430px"
+            app:srcCompat="@drawable/img_10" />
+
+
+    </com.google.android.material.navigation.NavigationView>
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+

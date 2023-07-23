@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".software">
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="75dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="114dp"
+        android:layout_height="65dp"
+        android:text="Software"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView45"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="107dp"
+        android:text="Software"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView45" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="286dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_37" />
+</androidx.constraintlayout.widget.ConstraintLayout>
